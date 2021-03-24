@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.modal-background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.7);
+    z-index: 1000;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height:30%;
+    background-color: #FFF;
+    z-index: 1000;
+    
+    box-sizing: border-box;
+    padding-left: 2%;
+    padding-right: 2%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Ambit';
+}
+
+.modal .verify-form {
+    text-align: center;
+}
+
+.modal .verify-form button {
+    width: 50%;
+}
+
+.modal .verify-form button:hover {
+    cursor: pointer;
+}

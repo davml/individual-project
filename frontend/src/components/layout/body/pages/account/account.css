@@ -1,0 +1,89 @@
+.account-wrapper {
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+    padding: 1%;
+
+    background-color: rgb(19, 19, 19);
+
+    font-family: 'Nunito', sans-serif;
+}
+
+.account-wrapper .account-dashboard {
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+
+    background-color: whitesmoke;
+
+    display: flex;
+}
+
+.account-wrapper .account-dashboard .dashboard-display {
+    height: 100%;
+    width: 85%;
+
+    box-sizing: border-box;
+
+    padding: 1%;
+}
+
+.account-wrapper .account-dashboard .account-navbar {
+    width: 15%;
+    height: 100%;
+
+    box-sizing: border-box;
+    padding-left: 2%;
+    padding-right: 2%;
+
+    background-color: white;
+}
+
+.account-navbar .navbar-links {
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar-links .links-ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+
+    padding-left: 0;
+
+    flex-direction: column;
+}
+
+.navbar-links .links-ul .links-li {
+    list-style: none;
+    height: 12%;
+    width: 100%;
+
+    border-bottom: 2px solid lightgray;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar-links .links-ul .links-li .links-link {
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+
+    font-size: 1.3em;
+}
+
+.navbar-links .links-ul .links-li .links-link:hover {
+    color:black;
+}

@@ -1,0 +1,184 @@
+
+.jobs-wrapper {
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jobs-wrapper .jobs-display {
+    width: 50%;
+    height: 100%;
+
+    background-color: white;
+}
+
+.jobs-wrapper ul {
+    width: 100%;
+    height: 100%;
+
+    overflow: scroll;
+    margin: 0;
+    padding: 0;
+
+    border: 2px solid lightgray;
+
+    font-size: 1.5em;
+    font-family: 'Nunito', sans-serif;
+
+    -webkit-overflow-scrolling: touch;
+}
+
+.jobs-display li {
+    padding: 5% 10%;
+
+    border-bottom: 1px solid gray;
+}
+
+.add-job {
+    text-align: center;
+    background-color: ghostwhite;
+
+    font-family: sans-serif;
+
+    cursor: pointer;
+
+    color: gray;
+
+}
+
+.add-job:hover {
+    background-color: ghostwhite;
+    color: black;
+
+    border: 2px solid black
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.jobs-container {
+    width: 100%;
+    height: 100%;
+
+    padding: 1%;
+}
+
+.jobs-container .jobs-container-2 {
+    width: 100%;
+    height: 100%;
+
+    background-color: white;
+}
+
+.jobs-container-2 .jobs-selector {
+    height: 15%;
+    width:100%;
+
+    background-color: rgb(10, 10, 10);
+    font-family: 'Ambit';
+    font-size: 1.5em;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.jobs-selector .jobs-heading {
+    width: 25%;
+    height: 100%;
+
+    color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.jobs-selector .jobs-heading-active {
+    width: 25%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.jobs-container-2 .jobs-display {
+    width: 100%;
+    height: 85%;
+}
+
+.jobs-display ul {
+    width: 100%;
+    height: 100%;
+
+    overflow: scroll;
+    margin: 0;
+    padding: 0;
+
+    border: 2px solid lightgray;
+
+    font-size: 1.5em;
+    font-family: 'Nunito', sans-serif;
+
+    -webkit-overflow-scrolling: touch;
+}
+
+.jobs-display li {
+    padding: 2% 5%;
+
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobs-display li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.jobs-display li i {
+    cursor: pointer;
+    float: right;
+    margin-left: 20px;
+
+    color: rgb(20, 20, 20);
+}
+
+.jobs-display li i:hover {
+    font-size: 1.2em;
+}
+
+
+.new-job {
+
+    background-color: transparent;
+    border: none;
+
+    float: right;
+
+    font-size: 1em;
+
+    width: 20%;
+    height: 100%;
+
+    color: lightgray;
+    font-family: 'Ambit';
+}
+
+.new-job:hover {
+    cursor: pointer;
+    color: ghostwhite;
+}
+

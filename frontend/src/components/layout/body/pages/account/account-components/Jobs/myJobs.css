@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+.jobs-container {
+    width: 100%;
+    height: 100%;
+
+    padding: 1%;
+}
+
+.jobs-container .jobs-container-2 {
+    width: 100%;
+    height: 100%;
+
+    background-color: white;
+}
+
+.jobs-container-2 .jobs-selector {
+    height: 15%;
+    width:100%;
+
+    background-color: rgb(10, 10, 10);
+    font-family: 'Ambit';
+    font-size: 1.5em;
+    display: flex;
+}
+
+.jobs-selector .jobs-heading {
+    width: 25%;
+    height: 100%;
+
+    color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.jobs-selector .jobs-heading-active {
+    width: 25%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.jobs-container-2 .jobs-display {
+    width: 100%;
+    height: 85%;
+}
+
+.jobs-display ul {
+    width: 100%;
+    height: 100%;
+
+    overflow: scroll;
+    margin: 0;
+    padding: 0;
+
+    border: 2px solid lightgray;
+
+    font-size: 1.2em;
+    font-family: 'Nunito', sans-serif;
+
+    -webkit-overflow-scrolling: touch;
+}
+
+.jobs-display li {
+    padding: 2% 5%;
+
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobs-display li:hover {
+    cursor: pointer;
+}
+
+.jobs-display li div:hover {
+    text-decoration: underline;
+}
+
+.jobs-display li i {
+    cursor: pointer;
+    float: right;
+}
+
+.jobs-display li i:hover {
+    font-size: 1.2em;
+}

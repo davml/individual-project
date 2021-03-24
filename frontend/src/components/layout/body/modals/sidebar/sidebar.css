@@ -1,0 +1,142 @@
+.modal-background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.7);
+    z-index: 1000;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Nunito', sans-serif;
+}
+
+.modal-heading {
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 1.2em;
+
+    border-bottom: 2px solid black;
+
+
+    background-color: whitesmoke;
+}
+
+.modal-heading p {
+    padding: 5%;
+}
+
+.modal-heading .modal-close {
+    margin-left: auto; 
+    margin-right: 0;
+    padding: 5%;
+
+    font-size: 1.3em;
+}
+
+.modal .modal-body {
+    width:100%;
+    height:90%;
+
+}
+
+.modal-body .body-search {
+    width: 100%;
+    height: 15%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-search .searchbox {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: whitesmoke;
+}
+
+.searchbox input {
+    width:80%;
+    height:100%;
+
+    background-color: transparent;
+
+    font-size: 1.2em;
+
+    border: none;
+}
+
+.searchbox button {
+    width:20%;
+    height: 100%;
+
+    background-color: transparent;
+
+    border: none;
+}
+
+
+.links-div {
+    width: 100%;
+    height: 50%;
+
+    padding: 5%;
+
+    background-color: whitesmoke;
+
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+}
+
+.links-div .links-ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+
+    padding-left: 0;
+
+    flex-direction: column;
+}
+
+.links-div .links-ul .links-li {
+    list-style: none;
+    text-align: left;
+    height: 15%;
+    width: 100%;
+
+    border-bottom: 2px solid lightgray;
+
+    display: flex;
+    align-items: center;
+}
+
+.links-div .links-ul .links-li .links-link {
+    padding-left: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    cursor: pointer;
+}

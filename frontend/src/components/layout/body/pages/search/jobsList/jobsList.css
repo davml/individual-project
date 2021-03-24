@@ -1,0 +1,22 @@
+.jobs-container {
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+
+    border: 2px solid black;
+}
+
+.jobs-display {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+}
+
+.jobs-display .job-item {
+    width: 100%;
+    height: 10%;
+    border-bottom: 2px solid black;
+}

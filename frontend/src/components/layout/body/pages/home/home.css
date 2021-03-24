@@ -1,0 +1,366 @@
+* {
+    box-sizing: border-box;
+}
+
+.homeWrapper {
+    width: 100%;
+
+    box-sizing: border-box;
+}
+
+.homeWrapper .imageWrapper {
+    width:100%;
+    height: 85%;
+
+    box-sizing: border-box;
+
+    background-color: black;
+
+    text-align: left;
+    font-family: 'Ambit';
+    font-weight: bolder;
+    font-size: 5rem;
+}
+
+.imageWrapper .backgroundImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(2px);
+    filter: brightness(70%)
+}
+
+.imageWrapper .img-txt {
+    position: absolute;
+    top: 25%;
+    left:10%;
+    color: white;
+}
+
+.imageWrapper .img-signup {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+.imageWrapper .signup-button {
+    background-color: black;
+    display: inline-block;
+    cursor: pointer;
+    color: lightgray;
+    font-family: 'Nunito' sans-serif;
+    font-size: 0.5em;
+    font-weight: bold;
+    font-style: italic;
+    width: 100%;
+    padding: 40px 60px;
+    text-decoration: none;
+}
+
+.imageWrapper .signup-button:hover {
+    color: white;
+    border: 2px solid white;
+}
+
+.homeWrapper .content-wrapper {
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper .info-1 {
+    background-color: rgb(8, 8, 8);
+    width: 100%;
+    height: 30%;
+    display: flex;
+    color: white;
+    font-family: 'Ambit';
+    box-sizing: border-box;
+}
+
+.info-1 .job-search {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height:100%;
+}
+
+.info-1 .job-heading {
+    font-size:2.5em;
+}
+
+.info-1 .text-info {
+    font-size: 1.2em;
+}
+
+
+.info-2 {
+    background-color: white;
+    height:5%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding: 5%;
+    font-family: 'Ambit';
+
+    border-bottom: 1px solid gray;
+}
+
+.info-2 .job-types {
+    text-align: center;
+    width:10%;
+    color: black;
+    font-size: 3em;
+    float:left;
+}
+
+.info-2 .text-info {
+    font-size: large;
+}
+
+
+.content-wrapper .home-search {
+    font-family: 'Nunito', sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 4vh;
+    text-align: center;
+    height: 25%;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.home-search .search-container {
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+
+.home-search .searchbox {
+    font-size: 17px;
+    border: 1px solid black;
+    float: left;
+    width: 75%;
+    background: transparent;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.home-search .submit-search {
+    float: left;
+    width: 20%;
+    background: black;
+    color: white;
+    font-size: 0.5em;
+    border: 1px solid black;
+    border-left: none;
+    cursor: pointer;
+}
+
+.home-search .properties{
+    float: left;
+    width: 5%;
+    background: black;
+    color: white;
+    font-size: 0.5em;
+    border: 1px solid black;
+    border-left: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 2000px) {
+    
+    .info-1 .job-heading {
+        font-size:2em;
+    }
+    
+    .info-1 .text-info {
+        font-size: 1em;
+    }
+
+    .info-2 .job-types {
+        font-size: 3em;
+    }
+    
+    .info-2 .text-info {
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 1750px) {
+
+    .info-2 .job-types {
+        font-size: 2em;
+    }
+    
+    .info-2 .text-info {
+        font-size: large;
+    }
+
+}
+
+@media screen and (max-width: 1500px) {
+    
+    .info-1 .job-heading {
+        font-size:2em;
+    }
+    
+    .info-1 .text-info {
+        font-size: 1em;
+    }
+
+    .info-2 .job-types {
+        font-size: 2em;
+    }
+    
+    .info-2 .text-info {
+        font-size: medium;
+    }
+}
+
+
+@media screen and (max-width: 1250px) {
+    .homeWrapper {
+        height: 100%;
+    }
+    .homeWrapper .imageWrapper {
+        font-size: 6em;
+    }
+
+    .imageWrapper .img-txt {
+        position: absolute;
+        top: 20%;
+        left:5%;
+        color: white;
+    }
+    
+    .imageWrapper .img-signup {
+        position: absolute;
+        bottom: 30%;
+        left: 5%;
+        font-size: 1.2em;
+    }
+    
+    .info-1 .job-heading {
+        font-size:1.5em;
+    }
+    
+    .info-1 .text-info {
+        font-size: 1em;
+    }
+
+    .info-2 .job-types {
+        font-size: 1.5em;
+    }
+    
+    .info-2 .text-info {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .homeWrapper .imageWrapper {
+        font-size: 4rem;
+    }
+
+    .imageWrapper .img-txt {
+        position: absolute;
+        top: 20%;
+        left:5%;
+        color: white;
+    }
+    
+    .imageWrapper .img-signup {
+        position: absolute;
+        bottom: 20%;
+        left: 5%;
+    }
+
+    .info-1 .job-heading {
+        font-size:3em;
+    }
+    
+    .info-1 .text-info {
+        font-size: 1.5em;
+    }
+
+    .info-1 .job-heading {
+        font-size:1.5em;
+    }
+    
+    .info-1 .text-info {
+        font-size: 1em;
+    }
+    
+    .info-2 .text-info {
+        display: none;
+    }
+
+    .home-search {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .homeWrapper .imageWrapper {
+        font-size: 2.5em;
+    }
+
+    .imageWrapper .img-txt {
+        position: absolute;
+        top: 20%;
+        left:5%;
+        color: white;
+    }
+    
+    .imageWrapper .img-signup {
+        position: absolute;
+        bottom: 10%;
+        left: 5%;
+    }
+
+    .imageWrapper .signup-button {
+        padding: 30px 40px;
+    }
+
+    .info-1 .job-heading {
+        font-size:1em;
+    }
+    
+    .info-1 .text-info {
+        font-size: .6em;
+    }
+
+    .home-search {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .homeWrapper .imageWrapper {
+        font-size: 2.2em;
+    }
+
+    .imageWrapper .img-txt {
+        position: absolute;
+        top: 20%;
+        left:5%;
+        color: white;
+    }
+    
+    .imageWrapper .img-signup {
+        position: absolute;
+        bottom: 20%;
+        left: 5%;
+    }
+
+    .imageWrapper .signup-button {
+        padding: 30px 40px;
+    }
+}
+
+

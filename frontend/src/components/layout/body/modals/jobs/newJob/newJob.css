@@ -1,0 +1,182 @@
+.modal-background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.7);
+    z-index: 1000;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height:60%;
+    background-color: #FFF;
+    z-index: 1000;
+    
+    box-sizing: border-box;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.modal .modal-heading {
+    width: 100%;
+    height: 15%;
+
+    box-sizing: border-box;
+
+    border-bottom: 1px solid black;
+
+    overflow: hidden;
+    font-family: 'Nunito', sans-serif;
+
+    display: flex;
+
+    color: black;
+}
+
+.mh-1 {
+    box-sizing: border-box;
+
+    width: 95%;
+    height: 100%;
+
+    text-align: left;
+}
+
+.mh-2 {
+    width: 5%;
+    height: 100%;    
+    display: flex;
+
+    font-size: 1.5em;
+    align-items: center;
+}
+
+.mh-2 i:hover {
+    cursor: pointer;
+}
+
+.modal-form-container {
+    width: 100%;
+    height: 85%;
+
+    box-sizing: border-box;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.modal-form {
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+
+    display: flex;
+}
+
+.modal-form .form-left {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+    padding-right: 2%;
+
+    font-family: 'Nunito', sans-serif;
+}
+
+.form-left .form-left-item {
+    width: 100%;
+    height: 10%;    
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.form-left-item label {
+
+    font-size: 1em;
+    width:100%;
+    height: 50%;
+}
+
+.form-left-item input {
+    width: 100%;
+    height: 50%;
+    background: transparent;
+    border: 1px solid black;
+}
+
+.form-left-item button {
+    width: 50%;
+    height: 100%;
+
+    border: 1px solid black;
+    background: transparent;
+
+    cursor: pointer;
+}
+
+.modal-form .form-right {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+    margin-left: 2%;
+
+    font-family: 'Nunito', sans-serif;
+}
+
+.form-right .form-right-desc {
+    width: 100%;
+    height: 50%;
+}
+
+.form-right-desc .form-right-item {
+    width: 100%;
+    height: 100%;    
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form-right-item label {
+    height: 10%;
+    width: 100%;
+}
+
+.form-right-item textarea {
+    height: 90%;
+    width: 100%;
+
+    border: 1px solid black;
+    background: transparent;
+}
+
+.form-right .form-right-img {
+    height: 40%;
+    width: 100%;
+
+    box-sizing: border-box;
+    margin-top: 2%;
+
+    
+}
+
+.form-right-img .form-img {
+    max-width:100%;
+    max-height:100%;
+
+    box-sizing: border-box;
+}
