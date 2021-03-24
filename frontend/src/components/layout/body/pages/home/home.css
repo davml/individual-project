@@ -17,7 +17,7 @@
     background-color: black;
 
     text-align: left;
-    font-family: 'Ambit';
+    font-family: 'Bebas Neue', cursive;
     font-weight: bolder;
     font-size: 5rem;
 }
@@ -76,7 +76,7 @@
     height: 30%;
     display: flex;
     color: white;
-    font-family: 'Ambit';
+    font-family: 'Nunito', sans-serif;
     box-sizing: border-box;
 }
 
@@ -105,7 +105,7 @@
     text-align: center;
     display: flex;
     padding: 5%;
-    font-family: 'Ambit';
+    font-family: 'Nunito', sans-serif;
 
     border-bottom: 1px solid gray;
 }
