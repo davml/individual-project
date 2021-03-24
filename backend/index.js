@@ -9,7 +9,6 @@ import jobRoutes from './routes/jobs.js';
 
 const app = express();
 
-
 dotenv.config();
 
 app.use(bodyParser.json({limit:"30mb",extended:"true"}));
