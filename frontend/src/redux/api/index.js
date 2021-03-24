@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://davml-individual-project-backend.zeet.app' });
+const API = axios.create({ baseURL: 'https://davml-individual-project-backend.zeet.app/' });
 
 /*API.interceptors.request.use((req) => {
     if(localStorage.getItem('profile')) {
