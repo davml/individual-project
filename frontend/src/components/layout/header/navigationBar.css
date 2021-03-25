@@ -188,58 +188,6 @@
     display: none;
 }
 
-@media screen and (max-width: 1500px) {
-    .logo {
-        display: none;
-    }
-
-    .linksDiv {
-        display: none;
-    }
-
-    .searchWrapper {
-        display: none;
-    }
-
-    .inboxWrapper {
-        display: none;
-    }
-
-    .mobileWrapper {
-        display:flex;
-        width: 100%;
-        height: 100%;
-        color: white;
-    }
-
-    .mobileSidebar {
-        width: 20%;
-        height: 100%;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        font-size: 4em;
-    }
-
-    .mobileLogo {
-        width: 80%;
-        height: 100%;
-
-        font-size: 3em;
-
-        display: flex;
-        align-items: center;
-        padding-right: 5%;
-    }
-
-    .mobileLogoContent {
-        margin-left: auto; 
-        margin-right: 0;
-    }
-}
-
 @media screen and (max-width: 1000px) {
 
     .mobileSidebar {
